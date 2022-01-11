@@ -20,6 +20,8 @@ $(NAME): $(OBJS)
 %.o: %.cpp
 	$(CXX) $(CXXFLAGS) -o $@ -c $<
 
+.PHONY: clean fclean re
+
 # Rule to remove all the object files.
 clean:
 	@rm -f $(OBJS)
