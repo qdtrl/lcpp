@@ -1,15 +1,15 @@
-#include "header.h"
+#include "function.h"
 
 int getIntegerValueFromUser()
 {
-  cout << "Entrer un entier: ";
+  std::cout << "Entrer un entier: ";
   int input{};
-  cin >> input;
+  std::cin >> input;
 
   return input;
 }
 
 void printAddition(int x, int y)
 {
-  cout << x << " + " << y << " = " << x + y << "\n";
+  std::cout << x << " + " << y << " = " << x + y << "\n";
 }

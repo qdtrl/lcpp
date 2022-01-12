@@ -1,7 +1,10 @@
-#include <iostream>
+#ifndef FUNCTION_H
+#define FUNCTION_H
 
-using namespace std;
+#include <iostream>
 
 // Function Prototype
 void printAddition(int, int);
 int getIntegerValueFromUser();
+
+#endif
